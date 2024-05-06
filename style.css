@@ -1,2 +1,19 @@
-
-   
+body {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: lightblue;
+    height: 500px;
+    background-image: url(image/Antibody-red-white-blue-3.webp);
+}
+h1 {
+    color: azure;
+    padding: 20px;
+}
+.span {
+    background-color: white;
+    color: blue;
+    border: 10px solid white;
+    border-radius: 50px;
+}
