@@ -5,15 +5,136 @@ body {
 #header {
     background-color: lightblue;
     height: 500px;
-    background-image: url(image/Antibody-red-white-blue-3.webp);
+    background-image: url(image/Art-of-the-Cell-ZikaVirus.webp);
 }
 h1 {
-    color: azure;
+    color: aqua;
     padding: 20px;
 }
 .span {
     background-color: white;
-    color: blue;
+    color: blueviolet;
     border: 10px solid white;
     border-radius: 50px;
+}
+button {
+    color: black;
+    background-color: cornflowerblue;
+    height: 30px;
+    width: 80px;
+    border-radius: 50px;
+    border: 0px solid cornflowerblue;
+}
+button a {
+    text-decoration: none;
+    color: black;
+}
+.med {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.request {
+    font-size: 130px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.second-para {
+    display: flex;
+    height: 900px;
+}
+.image {
+    width: 900px;
+}
+.appoint {
+    font-size: 30px;
+    padding: 10px;
+}
+.heal {
+    height: 700px;
+}
+.heal button {
+    width: 20%;
+    height: 10%;
+}
+.heal h2 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.third-para {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.covid {
+    display: flex;
+    width: 900px;
+    height: 650px;
+    float: right;
+}
+.choose {
+    font-size: 30px;
+}
+.a-image img {
+    width: 1000px;
+    display: flex;
+    float: left;
+    margin: 10px;
+}
+.about-services {
+    height: 650px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about-services button {
+    width: 20%;
+    height: 10%;
+    font-size: 40px;
+}
+.info-about {
+    text-align: center;
+    background-color: cornflowerblue;
+}
+.info-about a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+    font-size: 40px;
+    color: black;
+}
+.logo p {
+    font-size: 40px;
+}
+.logo img {
+    width: 50px;
+    margin: 20px;
+}
+footer {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    margin: 70px;
+}
+body {
+    }
+    @media(min-width:319px) and (max-width:480px) {
+    body {
+        
+    }
+    }
+        @media (min-width:481px) and (max-width:1200px) {
+    body {
+        
+    }
+    }
+    @media (min-width: 1201px) and (max-width: 1600) {
+    body {
+        
+    }
+    }
+    @media (min-width: 1601px) {
+    body {
+        
+    }
 }
