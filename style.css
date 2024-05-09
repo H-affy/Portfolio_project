@@ -354,3 +354,122 @@ footer a {
             color: black;
         }
     }
+    @media (min-width: 1201px) and (max-width: 1600px){
+        body {
+            background-color: bisque;
+            margin: 0;
+            padding: 0;
+        }
+        #header {
+            background-image: url(image/Art-of-the-Cell-ZikaVirus.webp);
+            width: 1300px;
+        }
+        header h1 {
+            font-size: 2em;
+        }
+        header button {
+            font-size: 20px;
+            margin: 10px;
+            background-color: transparent;
+        }
+        header button a {
+            font-size: 20px;
+            display: flex;
+            float: right;
+        }
+        .med {
+            font-size: 70px;
+            margin: 10px;
+            padding: 10px;
+        }
+        .second-para {
+            display: inline-block;
+            height: 700px;
+        }
+        .image {
+            display: inline-block;
+            float: right;
+            height: 700px;
+            width: 500;
+            margin-left: 30px;
+        }
+        .request {
+            font-size: 70px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .heal {
+            display: inline-block;
+            height: 800px;
+        }
+        .heal button {
+            width: 200px;
+            height: 100px;
+            margin: 20px;
+            background-color: transparent;
+            border: 5px solid black;
+        }
+        .heal button a {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .covid {
+            width: 1000px;
+            height: 700px;
+            float: left;
+        }
+        .heal h2 {
+            font-size: 3\40px;
+        }
+        .heal p {
+            font-size: 25px;
+        }
+        .choose {
+            font-size: 20px;
+        }
+        .about-services {
+            display: block;
+            height: 1200px;
+        }
+        .about-services img {
+            width: 1200px;
+            height: 900px;
+        }
+        .about-services h2 {
+            font-size: 40px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .about-services p {
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .about-services button {
+            width: 30%;
+            height: 5%;
+            background-color: transparent;
+            border: 5px solid black;
+        }
+        .info-about {
+            background-color: rgb(106, 106, 106);
+            display: block;
+        }
+        .info-about a {
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            text-align: center;
+            margin: 40px;
+        }
+        .logo p {
+            font-size: 30px;
+        }
+        .logo img {
+            width: 40px;
+        }
+        footer {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        footer a {
+            color: black;
+        }
+    }
